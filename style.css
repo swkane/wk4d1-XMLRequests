@@ -1,0 +1,68 @@
+body {
+  margin: 0 auto;
+  font-family: 'Josefin Slab', serif;
+}
+
+header {
+  margin-top: 0;
+  background: black;
+  color: white;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 6px dashed white;
+}
+
+#header {
+  font-weight: lighter;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /*max-width: 60%;*/
+  margin: 50px 100px;
+}
+
+.container div {
+  padding: 15px;
+  flex-grow: 1;
+}
+
+h3 {
+  font-family: 'Anton', sans-serif;
+  font-size: 30px;
+}
+
+#basics {
+  flex-basis: 30%;
+}
+
+#story {
+  flex-basis: 40%;
+}
+
+#story p {
+  padding-left: 10px;
+  padding-right: 10px;
+  border-left: 1px dotted gray;
+}
+
+span {
+  color: green;
+}
+
+a {
+  color: black;
+}
+
+#pic {
+  align-self: center;
+  /*flex-basis: 30%;*/
+
+}
+
+img {
+  width: 110px;
+  border-radius: 80px;
+}
